@@ -4,8 +4,10 @@ from colorama import Fore, init
 from time import sleep
 import random
 import sys
-
+from os import system
 init(autoreset=True)
+
+system('cls' if sys.platform == 'win32' else 'clear')
 
 CONTACTS = 'Telegram: @ItsReZNuM | Instagram: ReZ.NuM | GitHub: https://github.com/ItsReZNuM'
 
